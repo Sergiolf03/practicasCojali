@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logos/PokeWiki.png" type="image/png">
+    <title>Índice PokeWiki</title>
+    <link rel="stylesheet" href="regiones.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <img src="img/logos/PokeWiki.png" alt="Logo de PokeWiki" width="50" height="50">
+                <span>PokeWiki</span>
+            </div>
+            <ul>
+                <li><a href="indice.html" class="active">Inicio</a></li>
+                <li><a href="buscadorPokemon.html">Buscador Pokemon</a></li>
+                <li><a href="regiones.html">Regiones</a></li>
+                <li><a href="https://www.pokemon.com/es" target="_blank">Página Oficial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="regiones">
+            <!-- Kanto -->
+            <div class="card" id="Kanto">
+                <h2>Kanto</h2>
+                <p>Kanto es la región original del mundo Pokémon, conocida por ser el hogar de los primeros 151 Pokémon
+                    y por sus ciudades emblemáticas como Ciudad Verde y Ciudad Azafrán.</p>
+                <img src="img/regiones/Kanto/mapa.png" alt="Imagen 0">
+
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Kanto/bulbasaur.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Kanto/Charmander.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Kanto/Squirtle.png" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Kanto/Pikachu.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Kanto/Eevee.png" alt="Imagen 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Kanto:</p>
+                <ul id="juegos-Kanto"></ul>
+            </div>
+            <!-- Johto -->
+            <div class="card" id="Johto">
+                <h2>Johto</h2>
+                <p>Johto es una región conocida por su rica historia y cultura, hogar de Pokémon legendarios como Lugia
+                    y Ho-Oh, y ciudades emblemáticas como Ciudad Trigal y Ciudad Iris.</p>
+                <img src="img/regiones/Johto/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Johto/Chikorita.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Johto/Cyndaquil.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Johto/Totodile.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Johto: </p>
+                <ul id="juegos-Johto"></ul>
+            </div>
+            <!-- Hoenn -->
+            <div class="card" id="Hoenn">
+                <h2>Hoenn</h2>
+                <p>Hoenn es una región conocida por su clima tropical y su gran diversidad de Pokémon, con ciudades
+                    emblemáticas como Ciudad Petalia y Ciudad Portual.</p>
+                <img src="img/regiones/Hoenn/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Hoenn/treeco.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Hoenn/torchic.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Hoenn/Mudkip.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Hoenn</p>
+                <ul id="juegos-Hoenn"></ul>
+            </div>
+            <!-- Sinnoh -->
+            <div class="card" id="Sinnoh">
+                <h2>Sinnoh</h2>
+                <p>Sinnoh es una región montañosa conocida por su mitología y sus Pokémon legendarios como Dialga y
+                    Palkia, con ciudades emblemáticas como Ciudad Jubileo y Ciudad Corazón.</p>
+                <img src="img/regiones/Sinnoh/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Sinnoh/Turtwig.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Sinnoh/Chimchar.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Sinnoh/Piplup.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Sinnoh:</p>
+                <ul id="juegos-Sinnoh"></ul>
+            </div>
+            <!-- Teselia -->
+            <div class="card" id="Teselia">
+                <h2>Teselia</h2>
+                <p>Teselia es una región inspirada en Nueva York, conocida por su diversidad cultural y su gran
+                    metrópolis, Ciudad Porcelana.</p>
+                <img src="img/regiones/Teselia/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Teselia/Snivy.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Teselia/Tepig.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Teselia/Oshawott.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                    <p>Estos son los juegos que se desarrollan en la región de Teselia:</p>
+                    <ul id="juegos-Teselia"></ul>
+                </div>
+            </div>
+            <!-- Kalos -->
+            <div class="card" id="Kalos">
+                <h2>Kalos</h2>
+                <p>Kalos es una región inspirada en Francia, conocida por su belleza y elegancia, con ciudades
+                    emblemáticas como Ciudad Luminalia y Ciudad Novarte.</p>
+                <img src="img/regiones/Kalos/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Kalos/Chespin.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Kalos/Fennekin.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Kalos/Froakie.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Kalos:</p>
+                <ul id="juegos-Kalos"></ul>
+            </div>
+            <!-- Alola -->
+            <div class="card" id="Alola">
+                <h2>Alola</h2>
+                <p>Alola es una región tropical compuesta por varias islas, conocida por su clima cálido y sus Pokémon
+                    únicos, con ciudades emblemáticas como Ciudad Hauoli y Ciudad Konikoni.</p>
+                <img src="img/regiones/Alola/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Alola/Rowlet.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Alola/Litten.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Alola/Popplio.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Alola:</p>
+                <ul id="juegos-Alola"></ul>
+            </div>
+            <!-- Galar -->
+            <div class="card" id="Galar">
+                <h2>Galar</h2>
+                <p>Galar es una región inspirada en el Reino Unido, conocida por sus paisajes variados y su rica
+                    historia, con ciudades emblemáticas como Ciudad Puntera y Ciudad Artejo.</p>
+                <img src="img/regiones/Galar/mapa.png" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Galar/Grookey.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Galar/Scorbunny.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Galar/Sobble.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Galar</p>
+                <ul id="juegos-Galar"></ul>
+            </div>
+            <!-- Paldea -->
+            <div class="card" id="Paldea">
+                <h2>Paldea</h2>
+                <p>Paldea es una región inspirada en la Península Ibérica, conocida por su diversidad cultural y sus
+                    paisajes variados, con ciudades emblemáticas como Ciudad Meseta y Ciudad Cántara.</p>
+                <img src="img/regiones/Paldea/mapa.jpg" alt="Imagen 1">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/regiones/Paldea/Sprigatito.png" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Paldea/Fuecoco.png" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/regiones/Paldea/Quaxly.png" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide(this)">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide(this)">&#10095;</button>
+                </div>
+                <p>Estos son los juegos que se desarrollan en la región de Paldea:</p>
+                <ul id="juegos-Paldea"></ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <section id="contacto">
+            <div class="social-links">
+                <a href="https://x.com/Pokemon_ES_ESP?mx=2" target="_blank">
+                    <img src="img/logos/logo-black.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/PokemonESP/" target="_blank">
+                    <img src="img/logos/logotipo-de-instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/user/PokemonOficialES" target="_blank">
+                    <img src="img/logos/yt.png" alt="YouTube">
+                </a>
+                <a href="https://www.facebook.com/Pokemon/" target="_blank">
+                    <img src="img/logos/Facebook_Logo_Primary.png" alt="Facebook">
+                </a>
+            </div>
+            <p>© 2025 PokeWiki. Todos los derechos reservados.</p>
+        </section>
+    </footer>
+
+    <script src="regiones.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logos/PokeWiki.png" type="image/png">
+    <title>Índice PokeWiki</title>
+    <link rel="stylesheet" href="indice.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <img src="img/logos/PokeWiki.png" alt="Logo de PokeWiki" width="50" height="50">
+                <span>PokeWiki</span>
+            </div>
+            <ul>
+                <li><a href="indice.html" class="active">Inicio</a></li>
+                <li><a href="buscadorPokemon.html">Buscador Pokemon</a></li>
+                <li><a href="regiones.html">Regiones</a></li>
+                <li><a href="https://www.pokemon.com/es" target="_blank">Página Oficial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>¡Bienvenido a PokeWiki!</h1>
+            <p>Descubre el fascinante mundo de los Pokémon, donde la aventura y la amistad te esperan en cada esquina. <br>
+                ¿Estás listo para convertirte en el mejor entrenador Pokémon?
+
+            </p>
+            <img src="img/logos/PokeWiki.png" alt="Logo PokeWiki"><br>
+            <a href="#explore" class="btn">Explorar</a>
+        </div>
+    </section>
+
+    <section id="explore" class="contenido">
+        <h2>Serie de Animación</h2>
+        <p>La serie de animación Pokémon sigue las aventuras de Ash Ketchum y su fiel compañero Pikachu en su búsqueda
+            por convertirse en los mejores entrenadores Pokémon. Es un anime basado en su mayoría en los videojuegos de
+            la franquicia Pokémon. Fue creado en Japón por Satoshi Tajiri,
+            Ken Sugimori y Junichi Masuda, siendo producida por el estudio OLM Incorporated y licenciada en occidente
+            primero por
+            4Kids Entertainment Licensing, Inc. y en 2006 la licencia pasó a The Pokémon Company. El anime comenzó su
+            recorrido por
+            la televisión japonesa en TV Tokyo desde 1997 y todavía hoy sigue en emisión, contando con más de 1300
+            episodios</p>
+        <div class="carrusel" id="carrusel1">
+            <div class="carrusel-inner">
+                <div class="carrusel-item active">
+                    <img src="img/indice/season01_ep01_ss02.jpg" alt="Imagen 1">
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/indice/season08_main.jpg" alt="Imagen 2">
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/indice/season21_ep01_ss03.jpg" alt="Imagen 3">
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/indice/season19_main.jpg" alt="Imagen 4">
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/indice/season23_ep01_ss01.jpg" alt="Imagen 5">
+                </div>
+            </div>
+            <button class="carrusel-btn prev" onclick="moverCarrusel('carrusel1', -1)">&#10094;</button>
+            <button class="carrusel-btn next" onclick="moverCarrusel('carrusel1', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="contenido">
+        <h2>¿Qué son los Pokémon?</h2>
+        <p>Los Pokémon son criaturas ficticias, que dependiendo de la especie o el tipo, pueden tener rasgos físicos
+            parecidos a animales,
+            plantas, rocas, fantasmas, o incluso humanos (aunque de tamaño en muchos casos muy superior a lo que mediría
+            la especie
+            a la que se parece). Poseen poderes fantásticos que pueden utilizar llevando a cabo movimientos o
+            habilidades para
+            atacar, defenderse o cumplir sus necesidades. Generalmente pueden vivir en todo tipo de entornos,
+            subsistiendo en la
+            libertad de la naturaleza o conviviendo con humanos y ayudándolos.
+            Este contenido proviene de wikidex.net, y debe darse atribución a sus autores, tal como especifica la
+            licencia.
+            Se prohíbe su uso a PlagioDex (el wiki de FANDOOM), por copiar reiteradamente sin dar atribución.</p>
+        <div class="carrusel" id="carrusel2">
+            <div class="carrusel-inner">
+                <div class="carrusel-item active">
+                    <img src="img/indice/Palkia.png" alt="Bulbasaur">
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/indice/Arceus.png" alt="Charmander">
+                </div>
+                <div class="carrusel-item">
+                    <img src="img/indice/Koraidon.png" alt="Squirtle">
+                </div>
+            </div>
+            <button class="carrusel-btn prev" onclick="moverCarrusel('carrusel2', -1)">&#10094;</button>
+            <button class="carrusel-btn next" onclick="moverCarrusel('carrusel2', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section id="contacto">
+            <div class="social-links">
+                <a href="https://x.com/Pokemon_ES_ESP?mx=2" target="_blank">
+                    <img src="img/logos/logo-black.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/PokemonESP/" target="_blank">
+                    <img src="img/logos/logotipo-de-instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/user/PokemonOficialES" target="_blank">
+                    <img src="img/logos/yt.png" alt="YouTube">
+                </a>
+                <a href="https://www.facebook.com/Pokemon/" target="_blank">
+                    <img src="img/logos/Facebook_Logo_Primary.png" alt="Facebook">
+                </a>
+            </div>
+        
+        </section>
+    </footer>
+
+    <script src="indice.js"></script>
+</body>
+
+</html>

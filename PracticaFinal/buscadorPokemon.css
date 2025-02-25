@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffcb05;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu .logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu ul li a.active {
+    color: #c00;
+}
+
+.container {
+    background-image: url(img/fondos/fondoRayos.jpg);
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.card input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #005bb5;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .social-links {
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer .social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer p {
+    margin: 0;
+}
+.stats-list {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el relleno de la lista */
+}
+
+.stats-list li {
+    background-color: #f5d6d6;
+    /* Fondo gris claro para cada elemento */
+    border: 1px solid #ccc;
+    /* Borde alrededor de cada elemento */
+    margin: 5px 0;
+    /* Espacio entre los elementos */
+    padding: 10px;
+    /* Relleno dentro de cada elemento */
+    border-radius: 5px;
+    /* Bordes redondeados */ 
+}
+.pk-info {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

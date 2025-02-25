@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logos/PokeWiki.png" type="image/png">
+    <title>Índice PokeWiki</title>
+    <link rel="stylesheet" href="buscadorPokemon.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <img src="img/logos/PokeWiki.png" alt="Logo de PokeWiki" width="50" height="50">
+                <span>PokeWiki</span>
+            </div>
+            <ul>
+                <li><a href="indice.html" class="active">Inicio</a></li>
+                <li><a href="buscadorPokemon.html">Buscador Pokemon</a></li>
+                <li><a href="regiones.html">Regiones</a></li>
+                <li><a href="https://www.pokemon.com/es" target="_blank">Página Oficial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Buscador de Pokémon</h1>
+
+        <div class="cards">
+
+            <div class="card two">
+                <input type="text" id="pokemonInput1" placeholder="Ingrese el nombre del Pokémon"><br>
+                <button onclick="buscarPokemon(1)">Buscar Pokémon</button>
+                <div id="pokemonInfo1"></div>
+            </div>
+
+            <div class="card three">
+                <input type="text" id="pokemonInput2" placeholder="Ingrese el nombre del Pokémon"><br>
+                <button onclick="buscarPokemon(2)">Buscar Pokémon</button>
+                <div id="pokemonInfo2"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer class="footer">
+        <section id="contacto">
+            <div class="social-links">
+                <a href="https://x.com/Pokemon_ES_ESP?mx=2" target="_blank">
+                    <img src="img/logos/logo-black.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/PokemonESP/" target="_blank">
+                    <img src="img/logos/logotipo-de-instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/user/PokemonOficialES" target="_blank">
+                    <img src="img/logos/yt.png" alt="YouTube">
+                </a>
+                <a href="https://www.facebook.com/Pokemon/" target="_blank">
+                    <img src="img/logos/Facebook_Logo_Primary.png" alt="Facebook">
+                </a>
+            </div>
+            <p>© 2025 PokeWiki. Todos los derechos reservados.</p>
+        </section>
+    </footer>
+
+    <script src="buscadorPokemon.js"></script>
+</body>
+
+</html>
